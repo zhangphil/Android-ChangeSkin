@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="zhangphil.apptest.MainActivity" >
+
+    <item
+        android:id="@+id/red_skin"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="红色"/>
+    
+     <item
+        android:id="@+id/green_skin"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="绿色"/>
+     
+      <item
+        android:id="@+id/default_skin"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="默认"/>
+
+</menu>
